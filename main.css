@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+header {
+    border-bottom: 2px solid black;
+    width: auto;
+    height: 10%;
+}
+
+
+
+ul {
+    background-color: #20edf8;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.left {
+     float: left;
+}
+
+
+.left a {
+    font-family: 'Montserrat', sans-serif;
+    color: black; 
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+}
+
+.left a:hover {
+    transition-property: background-color;
+    transition-delay: 2ms;
+    transition-duration: .75s; 
+    background-color: black;
+    color: #20edf8;
+}
+
+.right {
+    float: right;
+    display: block;
+    text-align: center;
+    margin: 3px;
+    margin-top: 5px;
+    
+}
+
+
+
+/** content styles **/
+
+.img_shell {
+    padding: 5em 0;
+    border-bottom: 2px solid #20edf8;
+    background-image: url(img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_shell h4,
+.img_shell h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #20edf8;  
+    margin: auto;
+    text-align: center;
+    
+}
+
+.profile_pic {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    border: 3px solid #20edf8;
+    border-radius: 50%;
+}
+
+.content_shell {
+    border-bottom: 2px solid #20edf8;
+    width: auto;
+    min-height: 100%;
+    margin-bottom: 25%;
+    
+}
+ 
+.kael {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    background-color: #858585;
+    border: 2px solid #20edf8;
+    width: 20%;
+    margin: 2em 5%;
+    padding: 2em 1.5em;
+
+}
+
+
+.bio {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    background-color: #858585;
+    border: 2px solid #20edf8;
+    width: 20%;
+    margin: 2em 5%;
+    padding: 2em 1.5em;
+
+}
+
+.paulie {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    background-color: #858585;
+    border: 2px solid #20edf8;
+    width: 20%;
+    margin: 2em 5%;
+    padding: 2em 1.5em;
+}
+
+footer {
+    width: auto;
+    height: 10%;
+}
+
+
+/*** TRANSITIONS ***/
+
+
+
+
+
+
+
+
+ 
+    
+
+/*** #858585 gray background***/
+
+
+
+
